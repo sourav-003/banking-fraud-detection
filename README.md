@@ -35,17 +35,18 @@ The notebook demonstrates that combining multiple classifiers through ensemble m
 5. The trained Random Forest model will be saved as `banking_rf_model.pkl`.
 
 ## Repository Structure
-├── Banking Domain.ipynb # Main notebook containing full workflow
-├── data/ # Folder for dataset CSVs
-│ ├── train.csv
-│ ├── test_share.csv
-│ ├── Geo_scores.csv
-│ ├── instance_scores.csv
-│ ├── Qset_tats.csv
-│ └── Lambda_wts.csv
+.
+├── Banking Domain .ipynb          # Main notebook (end-to-end)
+├── data/
+│   ├── train.csv
+│   ├── test_share.csv
+│   ├── Geo_scores.csv
+│   ├── instance_scores.csv
+│   ├── Qset_tats.csv
+│   └── Lambda_wts.csv
 ├── models/
-│ └── banking_rf_model.pkl # Saved Random Forest model
-└── README.md # Project description
+│   └── banking_rf_model.pkl       # Saved RF model (created by notebook)
+└── README.md                      # This file
 
 ## Conclusion
 This project provides a complete walkthrough of building, evaluating, and saving machine learning models for the banking domain, covering every step from raw data ingestion to anomaly detection and model persistence. It demonstrates the use of multiple datasets, domain-specific enrichment, careful preprocessing, supervised and unsupervised techniques, ensemble methods, and reproducibility practices. The notebook serves as both a practical guide and a foundation for further experimentation in financial data science projects.
